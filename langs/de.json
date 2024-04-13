@@ -247,7 +247,7 @@
     "ERR_CONNECT_URL_TOO_LONG": "Die URL ist zu lang",
     "ERR_EXTERNAL_MODS_FOUND": "Nicht unterstützte Mods wurden gefunden",
     "ERR_FAILED_TO_UPDATE_CLIENT": "Der Client konnte nicht aktualisiert werden",
-    "ERR_FAILED_TO_PATCH_LAUNCHER": "Fehler beim Patchen des Launcher",
+    "ERR_FAILED_TO_PATCH_LAUNCHER": "Fehler beim Patchen des Launchers",
     "ERR_DISCORD_AUTH_FAILED": "Discord Authentifizierung fehlgeschlagen",
     "ERR_NO_PERMISSIONS_TO_QA_BRANCHES": "Du hast keinen Zugriff auf die QA branches",
     "ERR_FAILED_TO_INIT_BACKUP_SYSTEM": "Fehler beim Initialisieren des Backupsystems",
@@ -257,6 +257,7 @@
     "ERR_GAME_INVALID_VERSION": "Ungültige Spielversion",
     "ERR_GAME_OUTDATED": "Veraltete Spielversion",
     "ERR_INVALID_BRANCH": "Es wurde ein ungültiger Versionszweig angegeben.",
+    "ERR_DOWNLOAD_FAILED": "Download fehlgeschlagen",
     "SOL_RUN_AS_ADMIN": "Versuche [ALTV] als Administrator zu starten",
     "SOL_REINSTALL_TO_ANOTHER_LOCATION": "Versuche [ALTV] in einen anderen Ordner (vorzugsweise die automatische Installation) zu installieren",
     "SOL_CHECK_CONNECTION": "Überprüfe deine Internetverbindung",
@@ -273,11 +274,11 @@
     "SOL_RESTART_COMPUTER": "Starte deinen Computer neu",
     "SOL_VERIFY_GAME_FILES": "Prüfe die Integrität der Spieldateien",
     "SOL_DELETE_FILE_FROM_GAME": "Lösche {0} ({1}) aus deinem GTA V Ordner",
-    "SOL_DELETE_FILE_FROM_BACKUP": "Lösche {0} ({1}) aus deinem Backup Ordner",
+    "SOL_DELETE_FILE_FROM_MODS": "Lösche {0} ({1}) aus deinem Mods Ordner",
     "SOL_UPDATE_MOD": "Aktualisiere {0} ({1}) auf Version {2} oder höher",
     "SOL_USE_OFFLINE_MODE": "Verwende den Offline-Modus",
     "SOL_INCREASE_GAME_TIMEOUT": "Erhöhe den Wert der Zeitüberschreitung. Weitere Informationen findest du auf unserer Fehlerbehebungsseite",
-    "SOL_WAIT_FOR_UPDATE": "Warte auf [ALTV]-Update",
+    "SOL_WAIT_FOR_UPDATE": "Warte auf ein [ALTV]-Update",
     "SOL_GET_BACKUP_FROM_FRIEND": "Frag einen Freund, dir seinen Backupordner zu schicken.",
     "SOL_CHECK_FREE_SPACE": "Stelle sicher, dass du genügend freien Speicherplatz auf der Festplatte für [ALTV] hast",
     "SOL_VERIFY_CONFIGURATION_FILE": "Überprüfe deine Konfigurationsdatei. Unter \"Mehr Informationen anzeigen\" findest du eine detaillierte Fehlerbeschreibung",
@@ -287,6 +288,7 @@
     "SOL_RESTART_PLATFORM": "Starte den Rockstar Games Launcher und {0} neu",
     "SOL_DUPLICATE_MOD": "{0} ({1}) darf sich nur im Spiel- oder Backupverzeichnis befinden",
     "SOL_UPDATE_GAME": "Aktualisiere GTA V",
+    "SOL_REMOVE_OUTDATED_MODS": "Entferne veraltete Modifikationen",
 
     "ADDITIONAL_INFO": "Mehr Informationen",
     "POSSIBLE_SOLUTIONS": "Mögliche Lösungen:",
@@ -382,6 +384,7 @@
     "CHECKING_PRECONDITIONS": "Prüfe Voraussetzungen",
     "UPLOADING_CRASHDUMP": "Sende letzten Crash",
     "VALIDATING_BACKUP": "Prüfe Sicherung",
+    "DOWNLOADING_BACKUP": "Lade Backup",
 
     "ERR_GAME_RUNTIME_CRASH": "GTA V ist abgestürzt",
     "ERR_CAUSING_MODULE": "Absturzursache",
@@ -399,6 +402,9 @@
     "PIRATE_CONTINUE_WITH_PIRATED": "Weiter mit gecrackter Version",
     "PIRATE_IF_NOT": "Legale Version?",
     "PIRATE_DELETE": "Crack-Dateien löschen",
-    "PIRATE_SERIOUSLY": "Wirklich?"
+    "PIRATE_SERIOUSLY": "Wirklich?",
+    
+    "RESET_EPIC_CACHE": "EGS Cache zurücksetzen",
+    "VALIDATE_FILES_EPIC": "Der Cache wurde zurückgesetzt. Validiere deine Spieldateien im Epic Games Launcher."
   }
 }
